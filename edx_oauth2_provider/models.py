@@ -21,7 +21,10 @@ class TrustedClient(models.Model):
     directly.
 
     """
-    client = models.ForeignKey(Client)
+    client = models.ForeignKey(
+        Client,
+        on_delete=models.CASCADE,
+    )
 
     class Meta(object):
         db_table = 'oauth2_provider_trustedclient'
