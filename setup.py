@@ -11,7 +11,7 @@ setup(
     version=edx_oauth2_provider.__version__,
     description='Provide OAuth2 access to edX installations',
     author='edX',
-    url='https://github.com/edx/edx-oauth2-provider',
+    url='https://github.com/shadinaif/edx-oauth2-provider',
     license='AGPL',
     classifiers=[
         'Development Status :: 3 - Alpha',
